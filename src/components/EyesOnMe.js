@@ -1,1 +1,10 @@
-// Code EyesOnMe Component Here
+
+const EysOnMe = () => {
+    return (
+        <button onFocus={()=>{console.log('Good!')
+        }} onBlur={()=>{console.log('Hey! Eyes on me!')
+    }}>Eyes on me</button>
+    )
+}
+
+export default EysOnMe;
